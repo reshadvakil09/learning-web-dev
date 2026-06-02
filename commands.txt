@@ -10,7 +10,8 @@ git init - initializes git in directory
 git add <file name>.<ext> - adds file to staging
 git add . - adds all files to staging
 git status - shows files in staging
-gir commit -m "<msg>" - commits file to repo with message
+git commit -m "<msg>" - commits file to repo with message
+git log - gets log
 
 npm init - initializes node package manager
 npm i - installs node package specified in node json
