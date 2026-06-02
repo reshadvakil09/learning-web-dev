@@ -1,0 +1,19 @@
+cd - change directory
+cd .. - go to parent directory
+cd <file path> - go to file path
+
+mkdir - make directory/folder
+touch <file>.<ext> - create file e.g. notes.txt, index.html
+start <file>.<ext> - opens file in editor
+
+git init - initializes git in directory
+git add <file name>.<ext> - adds file to staging
+git add . - adds all files to staging
+git status - shows files in staging
+gir commit -m "<msg>" - commits file to repo with message
+
+npm init - initializes node package manager
+npm i - installs node package specified in node json
+npm i <package name> - install npm package
+node index.js - starts js file using nodemon
+nodemon index.js - starts js file with node monitor (nodemon needs to be installed)
