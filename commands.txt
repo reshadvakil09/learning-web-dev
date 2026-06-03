@@ -1,3 +1,9 @@
+Testing stuff
+
+!!! IMP !!!
+Add .gitignore file using "touch .gitignore" - for API keys and private data
+Add file names to .gitignore to prevent commiting them
+
 pwd - returns present working directory
 ls - list files in directory
 q - quit / exit (can be context specific)
@@ -23,7 +29,16 @@ git diff - returns diff between current file and previous savepoint
 git checkout <file name>.<ext> - revert to previous version of file (to be detailed)
 
 git remote add origin <Repo URL> - creates link to online repo
+git remote set-url origin <Repo URL> - updates link to online repo
 git push -u origin main
+
+git clone <URL> - cretes copy of code onto your local drive (follow instructions if given - https://github.com/clupasq/word-mastermind)
+
+git branch - shows all branches (current branch has an *)
+git branch <branch name> - creates a new branch
+git checkout <branch name> - moves to specified branch
+git merge <branch name> - merges branch to branch you are currently on, typically main
+:q! - escape vim
 
 npm init - initializes node package manager
 npm i - installs node package specified in node json
